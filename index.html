@@ -18,11 +18,11 @@
           <div class="navbar-header">
             <a class="navbar-brand header-font" href="#">Eshun Sharma</a>
           </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="javascript:void(0)">About</a></li>
-            <li><a href="javascript:void(0)">Skills</a></li>
-            <li><a href="javascript:void(0)">Resume</a></li>
-            <li><a href="javascript:void(0)">Contact</a></li>
+          <ul class="nav navbar-nav navbar-right tech-font">
+            <li><a href="javascript:void(0)" id="li-about-eshun">About</a></li>
+            <li><a href="javascript:void(0)" id="li-skills-eshun">Skills</a></li>
+            <li><a href="javascript:void(0)" id="li-resume-eshun">Resume</a></li>
+            <li><a href="javascript:void(0)" id="li-contact-eshun">Contact</a></li>
           </ul>
         </div>
     </nav>
@@ -38,11 +38,61 @@
     
     <i class="fa fa-arrow-circle-o-down" id="go-next"></i>
     
-    <div class="helloTest" style="height: 1000px; margin-top:46vh; z-index:100; background-color: #fff;position: relative;">asjd</div>
-  
+    <div class="page-block about-eshun">
+    </div>
+    <div class="page-block skills-eshun">
+    </div>
+    <div class="page-block contact-eshun">
+      <div class="tech-font heading">Feel Free to Contact Me</div>
+
+      <div class="row" style="margin: 0;">
+      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12" style="margin: auto; float: none; background-color: rgba(255,255,255,0.2); padding: 25px;">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name inp" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" id="email inp" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="text" class="form-control" id="phone inp" placeholder="Phone no">
+          </div>
+          <div class="form-group">
+            <label for="phone">Message</label>
+            <textarea class="form-control" id="inp" rows="3"></textarea>
+          </div>
+          <button class="btn btn-eshun">Submit</button>
+        </form>
+      </div>
+      </div>
+
+      <div class="row" style="margin: 0">
+        <div class="col-lg-12" style="text-align: center;">
+          <div class="tech-font" style="font-size: 18px;padding: 8px;">Find Me on</div>
+          <ul class="find-me">
+            <li><i class="fa fa-linkedin"></i></li>
+            <li><i class="fa fa-facebook"></i></li>
+            <li><i class="fa fa-twitter"></i></li>
+            <li><i class="fa fa-codepen"></i></li>
+            <li><i class="fa fa-github"></i></li>
+            <li><i class="fa fa-google"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="page-block footer">
+      <div class="col-lg-6">Copyright 2016</div>
+      <div class="col-lg-6 header-font">Eshun Sharma</div>
+    </div> -->
+
   </body>
 </html>
 
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
