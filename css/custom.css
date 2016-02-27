@@ -1,0 +1,42 @@
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #CCC;	
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #32aaee;	
+
+}
+
+/*.headerImage{
+	position: absolute;
+	top: 0;
+	height: 100vh;
+	left: 0;
+	right: 0;
+}*/
+
+.headerImage {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  background-color: rgba(0,0,0,0.5)
+}
+
+.headerImage img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  overflow-x: hidden;
+}
