@@ -16,14 +16,19 @@ $('#li-contact-eshun').click(function(){
 
 $(document).ready(function(){       
    var scroll_start = 0;
-   var startchange = $('.about-eshun');
-   var offset = startchange.offset();
+   var startchange3 = $('.temp-eshun');
+   var offset3 = startchange3.offset();
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top - 52) {
-          $('.navbar-eshun').css('background', 'rgba(12, 32, 75, 0.95)');
-       } else {
-          $('.navbar-eshun').css('background-color', 'rgba(12, 32, 75, 0.1)');
-       }
+      	
+      	if(scroll_start > offset3.top - 52) 
+      	{
+          	$('.navbar-eshun').css('background', 'rgba(12, 32, 75, 0.95)');
+      	} 
+       	else 
+       	{
+        	$('.navbar-eshun').css('background-color', 'rgba(12, 32, 75, 0.1)');
+        	$('.navbar-eshun').css('border-color', 'rgba(255, 255, 255, 0.45)');
+       	}
    });
 });

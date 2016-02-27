@@ -4544,7 +4544,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 .navbar-eshun {
   background-color: rgba(12, 32, 75, 0.1);
-  border-color: rgba(12, 32, 75, 0.45);
+  border-color: rgba(255, 255, 255, 0.45);
   color: #fff;
 }
 
