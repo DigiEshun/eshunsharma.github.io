@@ -23,7 +23,7 @@ $(document).ready(function(){
 	jQuery.scrollSpeed(100, 1000);
 
    	var scroll_start = 0;
-   	var startchange3 = $('.skills-eshun');
+   	var startchange3 = $('.about-eshun');
    	var offset3 = startchange3.offset();
    	$(document).scroll(function() { 
       	scroll_start = $(this).scrollTop();
