@@ -14,6 +14,10 @@ $('#li-contact-eshun').click(function(){
 	$.scrollTo($('.contact-eshun'), 1000);
 });
 
+$('.navbar-brand').click(function(){
+	$.scrollTo({'top':0,'left':0}, 1000);
+});
+
 $(document).ready(function(){   
 
 	jQuery.scrollSpeed(100, 1000);

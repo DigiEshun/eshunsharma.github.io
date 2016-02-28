@@ -35,6 +35,10 @@
     src: url(../fonts/tech.otf);
 }
 
+.navbar-brand{
+  cursor: pointer;
+}
+
 .headerImageOverlay{
   position: fixed; 
   top: -50%; 
@@ -326,7 +330,7 @@
 
 .skills-inner-text{
     color: #fff;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 130px;
     text-shadow :1px 1px 0.5px #333;
     transition: all 0.25s linear;
