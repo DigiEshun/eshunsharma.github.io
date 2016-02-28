@@ -450,6 +450,12 @@
     padding: 0;
   }
 
+  #go-next {
+    left: 42vw;
+    color: rgba(255,255,255,0.5);
+    top: 84vh;
+  }
+
 }
 
 
@@ -481,6 +487,10 @@
 
   .find-me li {
     padding: 0 7px;
+  }
+
+  #go-next {
+    left: 45vw;
   }
 
 }
