@@ -16,16 +16,25 @@
   <body>
 
     <nav class="navbar navbar-eshun navbar-fixed-top">
+      <button type = "button" class = "navbar-toggle" 
+         data-toggle = "collapse" data-target = "#nav-menu">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
         <div class="container">
           <div class="navbar-header">
             <a class="navbar-brand header-font">Eshun Sharma</a>
           </div>
-          <ul class="nav navbar-nav navbar-right tech-font">
+          <div class = "collapse navbar-collapse" id = "nav-menu">
+          <ul class="nav navbar-nav navbar-right tech-font" style="text-align: center;">
             <li><a href="javascript:void(0)" id="li-about-eshun">About</a></li>
             <li><a href="javascript:void(0)" id="li-skills-eshun">Skills</a></li>
             <li><a href="javascript:void(0)" id="li-resume-eshun">Resume</a></li>
             <li><a href="javascript:void(0)" id="li-contact-eshun">Contact</a></li>
           </ul>
+          </div>
         </div>
     </nav>
 
@@ -172,15 +181,15 @@
         <form>
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" id="name inp" placeholder="Name">
+            <input type="text" class="form-control" id="name inp">
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="text" class="form-control" id="email inp" placeholder="Email">
+            <input type="text" class="form-control" id="email inp">
           </div>
           <div class="form-group">
             <label for="phone">Phone</label>
-            <input type="text" class="form-control" id="phone inp" placeholder="Phone no">
+            <input type="text" class="form-control" id="phone inp">
           </div>
           <div class="form-group">
             <label for="phone">Message</label>

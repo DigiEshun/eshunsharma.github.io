@@ -402,3 +402,85 @@
   border-color: #EF7B5E;
   color: #EF7B5E;
 }
+
+/*Responsive*/
+
+@media (max-width: 480px){
+
+  .intro-eshun .header-font {
+    font-size: 38px;
+  }
+
+  .intro-eshun .tech-font {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .intro-eshun {
+    line-height: 28px;
+  }
+
+  .bg-fill-about {
+    padding-bottom: 20px;
+  }
+
+  .skills-circle {
+    margin: 10px;
+  }
+
+  .skills-eshun {
+    padding-bottom: 15px;
+  }
+
+  .contact-eshun .heading {
+    font-size: 28px;
+  }
+
+  .btn-eshun {
+    width: 100%;
+    margin-left: 0; 
+    margin-top: 10px;
+  }
+
+  .find-me li {
+    padding: 0 2px;
+  }
+
+  .find-me {
+    padding: 0;
+  }
+
+}
+
+
+@media (max-width: 767px) and (min-width: 481px){
+  
+  .intro-eshun .header-font {
+      font-size: 54px;
+  }
+
+  .intro-eshun .tech-font {
+    font-size: 17px;
+  }
+
+  .bg-fill-about {
+    padding-bottom: 15px;
+  }
+
+  .skills-circle {
+    margin: 15px;
+  }
+
+  .skills-eshun {
+    padding-bottom: 15px;
+  }
+
+  .find-me {
+    padding: 0;
+  }
+
+  .find-me li {
+    padding: 0 7px;
+  }
+
+}
