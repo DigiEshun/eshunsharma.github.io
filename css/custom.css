@@ -121,12 +121,6 @@
   background-color: #fff;
 }
 
-.temp-eshun{
-  background: url('../images/pattern.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .contact-eshun{
   min-height: 93vh;
   height: auto;
@@ -269,8 +263,9 @@
   border-radius: 100%;
   width: 100px;
   height: auto;
-  -webkit-filter: grayscale(50%); 
-  filter: grayscale(50%);
+  border: 1px solid #999;
+  -webkit-filter: grayscale(15%); 
+  filter: grayscale(15%);
   -ms-transform: rotate(-2deg);
   -webkit-transform: rotate(-2deg);
   transform: rotate(-2deg);
@@ -295,4 +290,111 @@
   font-size: 16px;
   padding-top: 10px;
   color: #000;
+}
+
+.skills-eshun{
+  background-color: #20202f;
+  text-align: center;
+  display: block;
+}
+
+.skills-block{
+  display: inline-block;
+  text-align: center;
+  max-width: 1366px;
+}
+
+.skills-circle{
+  display: inline-block;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  margin: 25px;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.skills-circle-inner{
+  border-radius: 100%;
+  display: block;
+  height: 130px;
+  width: 130px;
+  margin: 8px;
+  background-color: #20202f;
+  border: 2px solid #fff;
+}
+
+.skills-inner-text{
+    color: #fff;
+    font-size: 24px;
+    line-height: 130px;
+    text-shadow :1px 1px 0.5px #333;
+    transition: all 0.25s linear;
+    cursor: default;
+}
+
+.skills-inner-text:hover{
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#skill1-circle, #skill1-circle .skills-circle-inner, #skill1-circle .skills-circle-inner .skills-inner-text{
+  border-color: lime;
+  color: lime;
+}
+
+#skill2-circle, #skill2-circle .skills-circle-inner, #skill2-circle .skills-circle-inner .skills-inner-text{
+  border-color: tomato;
+  color: tomato;
+}
+
+#skill3-circle, #skill3-circle .skills-circle-inner, #skill3-circle .skills-circle-inner .skills-inner-text{
+  border-color: #32AAEE;
+  color: #32AAEE;
+}
+
+#skill4-circle, #skill4-circle .skills-circle-inner, #skill4-circle .skills-circle-inner .skills-inner-text{
+  border-color: #FBAD18;
+  color: #FBAD18;
+}
+
+#skill5-circle, #skill5-circle .skills-circle-inner, #skill5-circle .skills-circle-inner .skills-inner-text{
+  border-color: #08c65b;
+  color: #08c65b;
+}
+
+#skill6-circle, #skill6-circle .skills-circle-inner, #skill6-circle .skills-circle-inner .skills-inner-text{
+  border-color: #78BDF0;
+  color: #78BDF0;
+}
+
+#skill7-circle, #skill7-circle .skills-circle-inner, #skill7-circle .skills-circle-inner .skills-inner-text{
+  border-color: #E8C154;
+  color: #E8C154;
+}
+
+#skill8-circle, #skill8-circle .skills-circle-inner, #skill8-circle .skills-circle-inner .skills-inner-text{
+  border-color: #EC4655;
+  color: #EC4655;
+}
+
+#skill9-circle, #skill9-circle .skills-circle-inner, #skill9-circle .skills-circle-inner .skills-inner-text{
+  border-color: #B6758D;
+  color: #B6758D;
+}
+
+#skill10-circle, #skill10-circle .skills-circle-inner, #skill10-circle .skills-circle-inner .skills-inner-text{
+  border-color: #9CC9BE;
+  color: #9CC9BE;
+}
+
+#skill11-circle, #skill11-circle .skills-circle-inner, #skill11-circle .skills-circle-inner .skills-inner-text{
+  border-color: #CC199D;
+  color: #CC199D;
+}
+
+#skill12-circle, #skill12-circle .skills-circle-inner, #skill12-circle .skills-circle-inner .skills-inner-text{
+  border-color: #EF7B5E;
+  color: #EF7B5E;
 }
