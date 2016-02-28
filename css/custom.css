@@ -155,7 +155,7 @@
   color: #fff;
 }
 
-.fa-linkedin, .fa-facebook, .fa-twitter, .fa-codepen, .fa-github, .fa-google{
+.fa-linkedin, .fa-facebook, .fa-twitter, .fa-codepen, .fa-github, .fa-google, .fa-user{
   font-size: 30px !important;
   border-radius: 2px;
   padding: 15px 8px 8px 8px;
@@ -190,6 +190,11 @@
   background-color: #dd4b39;
 }
 
+.fa-user{
+  color: #fff;
+  background-color: #247238;
+}
+
 .fa-linkedin:hover{
   background-color: #fff;
   color: #1985BC;
@@ -218,6 +223,11 @@
 .fa-google:hover{
   background-color: #fff;
   color: #dd4b39;
+}
+
+.fa-user:hover{
+  background-color: #fff;
+  color: #247238;
 }
 
 .find-me{
@@ -493,4 +503,10 @@
     left: 45vw;
   }
 
+}
+
+@media (max-width: 420px){
+  .fa-user{
+    display: none !important;
+  }
 }
