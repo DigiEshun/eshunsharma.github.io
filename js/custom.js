@@ -18,6 +18,10 @@ $('.navbar-brand').click(function(){
 	$.scrollTo({'top':0,'left':0}, 1000);
 });
 
+$('.nav a').on('click', function(){
+    $('.navbar-toggle').click()
+});
+
 $(document).ready(function(){   
 
 	jQuery.scrollSpeed(100, 1000);
