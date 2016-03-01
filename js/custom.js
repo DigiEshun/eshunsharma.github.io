@@ -19,7 +19,9 @@ $('.navbar-brand').click(function(){
 });
 
 $('.nav a').on('click', function(){
-    $('.navbar-toggle').click()
+    $('nav button').addClass('collapsed').attr("aria-expanded","false");
+
+    $('#nav-menu').removeClass('in').css("height", "1px").attr("aria-expanded","false");
 });
 
 $(document).ready(function(){   
