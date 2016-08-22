@@ -26,7 +26,7 @@ $('.nav a').on('click', function(){
 
 $(document).ready(function(){   
 
-	jQuery.scrollSpeed(100, 1000);
+	// jQuery.scrollSpeed(100, 1000);
 
    	var scroll_start = 0;
    	var startchange3 = $('.about-eshun');

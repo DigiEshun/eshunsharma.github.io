@@ -259,7 +259,7 @@
 
 .about-me-content{
   background-color: rgb(255, 255, 255);
-  background: url('../images/pattern.png');
+  background: url('../dist/images/pattern.png');
   background-size: cover;
   margin: auto;
   float: none;
